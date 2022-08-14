@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "authoName": "matheusbbarni"
+  "authoName": "matheusbbarni",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
