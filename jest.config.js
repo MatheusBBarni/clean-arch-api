@@ -5,9 +5,11 @@ module.exports = {
   ],
   coverageDirectory: 'coverage',
   coveragePathIgnorePatterns: [
-    '/node_modules/'
+    '/node_modules/',
+    '/dist/',
+    '/coverage/'
   ],
-  // coverageProvider: 'v8',
+  coverageProvider: 'v8',
   roots: [
     '<rootDir>/src'
   ],
@@ -20,6 +22,8 @@ module.exports = {
   },
   transformIgnorePatterns: [
     '/node_modules/',
-    '\\.pnp\\.[^\\/]+$'
+    '\\.pnp\\.[^\\/]+$',
+    '/dist/',
+    '/coverage/'
   ]
 }
